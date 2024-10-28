@@ -1,0 +1,3 @@
+[console_scripts]
+autonomous_control = autonomous_script.autonomous_control:main
+

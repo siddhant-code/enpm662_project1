@@ -1,0 +1,8 @@
+source;share/toycar/hook/cmake_prefix_path.ps1
+source;share/toycar/hook/cmake_prefix_path.dsv
+source;share/toycar/hook/cmake_prefix_path.sh
+source;share/toycar/local_setup.bash
+source;share/toycar/local_setup.dsv
+source;share/toycar/local_setup.ps1
+source;share/toycar/local_setup.sh
+source;share/toycar/local_setup.zsh

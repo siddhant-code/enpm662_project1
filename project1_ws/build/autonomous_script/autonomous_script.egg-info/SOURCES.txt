@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/autonomous_script/autonomous_script.egg-info/PKG-INFO
+../../build/autonomous_script/autonomous_script.egg-info/SOURCES.txt
+../../build/autonomous_script/autonomous_script.egg-info/dependency_links.txt
+../../build/autonomous_script/autonomous_script.egg-info/entry_points.txt
+../../build/autonomous_script/autonomous_script.egg-info/requires.txt
+../../build/autonomous_script/autonomous_script.egg-info/top_level.txt
+../../build/autonomous_script/autonomous_script.egg-info/zip-safe
+autonomous_script/__init__.py
+autonomous_script/autonomous_control.py
+resource/autonomous_script
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

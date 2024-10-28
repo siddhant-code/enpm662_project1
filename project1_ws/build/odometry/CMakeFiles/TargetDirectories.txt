@@ -1,0 +1,10 @@
+/home/siddhant/Desktop/project1_ws/build/odometry/CMakeFiles/uninstall.dir
+/home/siddhant/Desktop/project1_ws/build/odometry/CMakeFiles/odometry_uninstall.dir
+/home/siddhant/Desktop/project1_ws/build/odometry/CMakeFiles/odometry_plugin.dir
+/home/siddhant/Desktop/project1_ws/build/odometry/CMakeFiles/test.dir
+/home/siddhant/Desktop/project1_ws/build/odometry/CMakeFiles/edit_cache.dir
+/home/siddhant/Desktop/project1_ws/build/odometry/CMakeFiles/rebuild_cache.dir
+/home/siddhant/Desktop/project1_ws/build/odometry/CMakeFiles/list_install_components.dir
+/home/siddhant/Desktop/project1_ws/build/odometry/CMakeFiles/install.dir
+/home/siddhant/Desktop/project1_ws/build/odometry/CMakeFiles/install/local.dir
+/home/siddhant/Desktop/project1_ws/build/odometry/CMakeFiles/install/strip.dir

@@ -1,0 +1,3 @@
+[console_scripts]
+control_car = teleop_script.control_car:main
+
