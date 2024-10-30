@@ -8,7 +8,7 @@ cd ~/enpm662_project1-main/project1_ws
 colcon build
 source install/local_steup.bash
 
-#Launch competition world:
+#Launch competition world
 ros2 launch toycar competition.launch.py
 
 #Run the RVIZ (open new terminal):
