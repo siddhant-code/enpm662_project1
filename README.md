@@ -1,27 +1,37 @@
-#ENPM662 PROJECT-1 GROUP 10
+# ENPM662 PROJECT-1 GROUP 10
 
-#clone the repository
+## Overview
+This project focuses on developing and simulating autonomous navigation and running teleop for the toycar(designed using Solidworks) using ROS2. The project encompasses teleoperation, visualization of lidar in RViz, and automated navigation within a Gazebo simulation environment.
 
+## Setup
+### 1. clone the repository
 git clone https://github.com/siddhant-code/enpm662_project1
 cd ~/enpm662_project1-main/project1_ws
 
-#Build the package
+### 2. Build the package
 colcon build
+
+### 3. Source the Setup File
+After building, source the setup file to configure your environment:
 source install/local_steup.bash
 
-#Launch competition world
+### 4. Launching the competition world
+To start the competition world gazebo simulation, run:
 ros2 launch toycar competition.launch.py
 
-#Run the RVIZ (open new terminal):
+### 5. Running RViz
+In a new terminal, source the setup file and launch RViz for visualization:
 source install/local_steup.bash
 ros2 launch toycar display.launch.py
 
-#Run the teleop (open new terminal):
+### 6. Running teleoperation
+Open another terminal, source the setup file, and run the teleoperation script to control the Toycar:
 source install/local_steup.bash
 ros2 run teleop_script control_car
 
-#Launch gazebo world(empty world):
+### 7. Launch gazebo world(empty world):
+To start an empty Gazebo world for autonomous navigation execute:
 ros2 launch toycar gazebo.launch.py 
 
-#To run automatic navigation:
+### 8. Running the automatic navigation:
 ros2 run autonomous_script autonomous_control
