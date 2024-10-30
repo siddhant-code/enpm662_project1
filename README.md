@@ -5,8 +5,9 @@ This project focuses on developing and simulating autonomous navigation and runn
 
 ## Setup
 ### 1. clone the repository
-`git clone https://github.com/siddhant-code/enpm662_project1
-`cd ~/enpm662_project1-main/project1_ws
+```bash
+git clone https://github.com/siddhant-code/enpm662_project1
+cd ~/enpm662_project1-main/project1_ws
 
 ### 2. Build the package
 colcon build
