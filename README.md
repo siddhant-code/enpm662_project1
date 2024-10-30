@@ -18,7 +18,7 @@ colcon build
 ### 3. Source the Setup File
 After building, source the setup file to configure your environment:
 ```bash
-source install/local_steup.bash
+source ~/project1_ws/install/setup.bash
 ```
 
 ### 4. Launching the competition world
@@ -30,14 +30,14 @@ ros2 launch toycar competition.launch.py
 ### 5. Running RViz
 In a new terminal, source the setup file and launch RViz for visualization:
 ```bash
-source install/local_steup.bash
+source ~/project1_ws/install/setup.bash
 ros2 launch toycar display.launch.py
 ```
 
 ### 6. Running teleoperation
 Open another terminal, source the setup file, and run the teleoperation script to control the Toycar:
 ```bash
-source install/local_steup.bash
+source ~/project1_ws/install/setup.bash
 ros2 run teleop_script control_car
 ```
 
