@@ -11,6 +11,10 @@ source install/local_steup.bash
 #Launch competition world:
 ros2 launch toycar competition.launch.py
 
+#Run the RVIZ (open new terminal):
+source install/local_steup.bash
+ros2 launch toycar display.launch.py
+
 #Run the teleop (open new terminal):
 source install/local_steup.bash
 ros2 run teleop_script control_car
