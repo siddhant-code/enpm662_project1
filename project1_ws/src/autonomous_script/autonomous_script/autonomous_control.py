@@ -15,7 +15,7 @@ class AutomaticControlNode(Node):
         self.target_reached = False        # To check if target is reached
         self.target_x = 10                 # Target X coordinate
         self.target_y = 10                 # Target Y coordinate
-        self.kp = 100 * math.pi / 180
+        self.kp = 20 * math.pi / 180
         self.steer_angle = 0.0             # Steer angle
         
         # Publisher for joint position (steer angle) and wheel velocity
@@ -43,7 +43,7 @@ class AutomaticControlNode(Node):
         self.ax_xy.set_ylim(0, 20)
         self.ax_xy.set_xlabel('X Position')
         self.ax_xy.set_ylabel('Y Position')
-        self.ax_xy.set_title('X vs Y Position')
+        self.ax_xy.set_title('Pose plot')
 
         # Plot for X vs Time
         self.line_xt, = self.ax_xt.plot([], [], 'r-')
